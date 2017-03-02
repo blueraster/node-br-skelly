@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "CT_URL=http://localhost:9000 LOCAL_URL=http://localhost:3005 NODE_PATH=app/src PORT=3005 node --harmony ./node_modules/.bin/grunt --gruntfile app/Gruntfile.js",
-    "start": "NODE_PATH=app/src node --harmony app/index.js",
+    "start": "NODE_PATH=app/src node --harmony app/index.js"
   },
   "keywords": [],
   "author": "Charlie, Asa, Luke, and Adnan",
