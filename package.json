@@ -7,7 +7,7 @@
     "dev": "CT_URL=http://localhost:9000 LOCAL_URL=http://localhost:3005 NODE_PATH=app/src PORT=3005 node --harmony ./node_modules/.bin/grunt --gruntfile app/Gruntfile.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Charlie, Asa, Luke, and Adnan",
   "license": "ISC",
   "devDependencies": {
     "assert": "^1.4.1",
