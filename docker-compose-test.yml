@@ -1,0 +1,11 @@
+test:
+  extends:
+    file: base.yml
+    service: base
+  ports:
+    - "3005"
+  container_name: node-br-skelly-test
+  environment:
+    NODE_ENV: test
+    CT_URL: http://localhost:9000
+  command: test

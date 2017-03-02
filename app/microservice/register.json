@@ -1,0 +1,20 @@
+{
+	"name": "#(service.name)",
+	"tags": ["gfw", "rw"],
+	"endpoints": [{
+		"path": "/node-br-skelly/hi",
+		"method": "GET",
+		"redirect": {
+			"method": "GET",
+			"path": "/api/v1/node-br-skelly/hi"
+		}
+	},
+	{
+		"path": "/node-br-skelly/gi/:msg",
+		"method": "GET",
+		"redirect": {
+			"method": "GET",
+			"path": "/api/v1/node-br-skelly/gi/:msg"
+		}
+	}]
+}

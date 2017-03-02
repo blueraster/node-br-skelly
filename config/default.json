@@ -1,0 +1,12 @@
+{
+     "logger": {
+        "name": "node-br-skelly-DEV",
+        "level": "debug",
+        "toFile": false,
+        "dirLogFile": null
+    },
+    "service": {
+        "name": "Node BR Skelly",
+        "port": 3005
+    }
+}

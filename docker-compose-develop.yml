@@ -1,0 +1,13 @@
+develop:
+  extends:
+    file: base.yml
+    service: base
+  ports:
+    - "35739:35729"
+  environment:
+    CT_URL: http://192.168.2.126:9000 
+    LOCAL_URL: http://192.168.2.126:3005
+    CT_TOKEN: null
+  command: develop
+  volumes:
+    - ./app:/opt/node-br-skelly/app
