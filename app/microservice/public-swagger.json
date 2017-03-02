@@ -1,2 +1,18 @@
 {
+    "swagger": "2.0",
+    "info": {
+        "title": "Blue Raster Test API",
+        "description": "Global Forest Watch API - Test Node Service",
+        "version": "1.0.0"
+    },
+    "schemes": [
+        "https",
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/vnd.api+json"
+    ]
 }
